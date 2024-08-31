@@ -1,0 +1,11 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/* 
+#d{
+	-fx-background-image: 
+}*/
+
+#help{
+	-fx-background-color: white;
+	-fx-background-image: url(../Files/help.png);
+	-fx-background-size: cover;
+}

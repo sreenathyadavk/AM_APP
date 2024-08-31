@@ -1,0 +1,96 @@
+#window{
+	-fx-background-color : #181a1b;
+}
+#search_Feild{
+/* 	-fx-border-radius:0.0 ;*/
+	-fx-border-color: #913aff;
+	-fx-background-color : #181a1b;
+	-fx-font-size: 20px;
+	-fx-text-inner-color:white;
+	
+}
+
+#search_BTN{
+	-fx-border-style: none;
+	-fx-background-color: #181a1b;
+	-fx-background-image: url(./Files/search%20dark.png);
+	-fx-background-size: cover ;
+}
+
+
+#cart{
+	-fx-background-color: #181a1b;
+	-fx-background-image: url(./Files/cart%20dark.png);
+	-fx-background-size: cover ;
+	
+}
+
+#user_Acc{
+	-fx-background-color: #181a1b;
+	-fx-background-image: url(./Files/user%20dark.png);
+	-fx-background-size: cover ;
+}
+/*/
+#Hello_user{
+	  -fx-text-fill: white;
+}*/
+
+#sell_BTN_home{
+	-fx-border-color: #913aff;
+	-fx-color:#913aff;
+}
+
+#help{
+	-fx-background-color: #181a1b;
+	-fx-background-image: url(./Files/help.png);
+	-fx-background-size: cover ;
+	
+}
+
+/* 
+#Amazon_Icon{
+		-fx-background-image: url(./Files/Amazon%20logo.png);
+		-fx-background-size: cover ;
+}*/
+
+#del_Acc{
+		-fx-background-color: #181a1b;
+		-fx-background-image: url(./Files/delete%20dark.png);
+		-fx-background-image: url(./Files/3.png);
+		-fx-background-size: cover ;
+}
+
+#security{
+		-fx-background-color: #181a1b;
+		-fx-background-image: url(./Files/security%20dark.png);
+		-fx-background-image: url(./Files/2.png);
+		-fx-background-size: cover ;
+}
+
+#user_icon{
+	-fx-background-color: #181a1b;
+	-fx-background-image: url(./Files/change-user.png);
+	-fx-background-size: cover ;
+	
+}
+
+#un , #pin , #dob , #mn , #email , #theme_la,#line1,#line2,#line3,#user_info_label,#sec_text,#su_text,#ns_text,#r_text{
+	 -fx-text-fill: white;
+}
+#w_radio,#d_radio{
+		 -fx-text-fill: white;
+		 
+}
+#change_pin_btn,#scan_btn{
+	-fx-border-color: #913aff;
+	-fx-background-color: #181a1b;
+	-fx-text-fill: white;
+
+}
+
+#sec_icon{
+
+	-fx-background-color: #181a1b;
+	-fx-background-image: url(./Files/icons8-security-configuration-48.png);
+	-fx-background-size: cover ;
+}

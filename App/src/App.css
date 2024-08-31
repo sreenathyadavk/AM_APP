@@ -1,0 +1,41 @@
+#User_Acc_BTN {    
+    /*-fx-background-image: "/vishnuTheSUp.jpg";*/
+    -fx-font : 14px "serief";
+    -fx-padding : 10;
+    /*-fx-background-color : #CCFF99;*/
+	-fx-background-image: "";
+}
+
+
+#help{
+	-fx-background-color: white;
+	-fx-background-image: url(./Files/help.png);
+	-fx-background-size: cover ;
+}
+
+#back{
+	-fx-background-color: white;
+	-fx-background-image: url(./Files/back.png);
+	-fx-background-size: cover ;
+}
+
+
+
+#home{
+	-fx-background-color: white;
+	-fx-background-image: url(./Files/home%20white.png);
+	-fx-background-size: cover;
+}
+
+/*
+#help{
+	-fx-background-color: white;
+	-fx-background-image: url(../Files/help.png);
+	-fx-background-size: cover ;
+}
+
+#back{
+	-fx-background-color: white;
+	-fx-background-image: url(../Files/back.png);
+	-fx-background-size: cover ;
+}*/

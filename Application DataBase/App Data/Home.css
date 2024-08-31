@@ -1,0 +1,8 @@
+/*USer Home File Css*/
+#User_Acc_BTN {    
+    /*-fx-background-image: "/vishnuTheSUp.jpg";*/
+    -fx-font : 14px "serief";
+    -fx-padding : 10;
+    /*-fx-background-color : #CCFF99;*/
+    -fx-background-color : #e40000;
+}

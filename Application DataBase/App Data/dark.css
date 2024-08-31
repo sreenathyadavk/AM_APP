@@ -1,0 +1,54 @@
+#window{
+	-fx-background-color : #181a1b;
+}
+#search_Feild{
+/* 	-fx-border-radius:0.0 ;*/
+	-fx-border-color: #913aff;
+	-fx-background-color : #181a1b;
+	-fx-font-size: 20px;
+	-fx-text-inner-color:white;
+	
+}
+
+#search_BTN{
+	-fx-border-style: none;
+	-fx-background-color: #181a1b;
+	-fx-background-image: url(./Files/search%20dark.png);
+	-fx-background-size: cover ;
+}
+
+
+#cart{
+	-fx-background-color: #181a1b;
+	-fx-background-image: url(./Files/cart%20dark.png);
+	-fx-background-size: cover ;
+	
+}
+
+#user_Acc{
+	-fx-background-color: #181a1b;
+	-fx-background-image: url(./Files/user%20dark.png);
+	-fx-background-size: cover ;
+}
+
+#Hello_user{
+	  -fx-text-fill: white;
+}
+
+#sell_BTN_home{
+	-fx-border-color: #913aff;
+	-fx-color:#913aff;
+}
+
+#help{
+	-fx-background-color: #181a1b;
+	-fx-background-image: url(./Files/help.png);
+	-fx-background-size: cover ;
+	
+}
+
+#view_offers{
+	-fx-border-color: #913aff;
+	-fx-background-image: url(./Files/offers.png);
+	-fx-background-size: 100%
+}

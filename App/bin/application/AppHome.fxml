@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AppHomecontroller">
+   <children>
+      <Button fx:id="create_BTN" layoutX="60.0" layoutY="175.0" mnemonicParsing="false" onAction="#Create" prefHeight="82.0" prefWidth="143.0" text="Sign Up" />
+      <Button fx:id="login_BTN" layoutX="363.0" layoutY="175.0" mnemonicParsing="false" onAction="#Login" prefHeight="82.0" prefWidth="143.0" text="Login" />
+      <Label layoutX="172.0" layoutY="47.0" prefHeight="82.0" prefWidth="302.0" text="Amazon ^_~">
+         <font>
+            <Font name="MV Boli" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="help" layoutX="516.0" layoutY="331.0" mnemonicParsing="false" onAction="#help_btn" prefHeight="65.0" prefWidth="74.0" />
+   </children>
+</AnchorPane>

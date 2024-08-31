@@ -1,0 +1,60 @@
+#window{
+	-fx-background-color : white;
+}
+#search_Feild{
+		-fx-font-size: 20px;
+}
+#search_BTN{
+	-fx-background-color: white;
+	-fx-background-image: url(./Files/search%20white.png);
+	-fx-background-size: cover ;
+}
+
+
+#cart{
+	-fx-background-color: white;
+	-fx-background-image: url(./Files/cart%20white.png);
+	-fx-background-size: cover ;
+	
+}
+
+
+#user_Acc{
+	-fx-background-color: white;
+	-fx-background-image: url(./Files/user%20white.png);
+	-fx-background-size: cover ;
+}
+
+
+#help{
+	-fx-background-color: white;
+	-fx-background-image: url(./Files/help.png);
+	-fx-background-size: cover ;
+	
+}
+
+#Amazon_Icon{
+		-fx-background-image: url(./Files/Amazon%20logo%20white.png);
+		-fx-background-size: cover ;
+}
+
+
+#del_Acc{	
+		-fx-background-color: white;
+		-fx-background-image: url(./Files/delete%20white.png);
+		-fx-background-size: cover ;
+}
+
+#security{
+		-fx-background-color: white;
+	/* -fx-background-image: url(./Files/security%20white.png);*/
+		-fx-background-image: url(./Files/security.png);
+		-fx-background-size: cover ;
+}
+
+#user_icon{
+		-fx-background-color: white;
+		-fx-background-image: url(./Files/user%20white.png);
+		-fx-background-size: cover ;
+	
+}

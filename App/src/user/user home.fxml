@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="window" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="838.0" prefWidth="1336.0" stylesheets="@dark.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.Home_Controller">
+   <children>
+      <Button fx:id="cart" layoutX="1045.0" layoutY="99.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="85.0" visible="false" />
+      <Separator layoutX="1004.0" layoutY="60.0" orientation="VERTICAL" prefHeight="742.0" prefWidth="33.0" />
+      <Button fx:id="sell_BTN_home" layoutX="1037.0" layoutY="717.0" mnemonicParsing="false" onAction="#sell" prefHeight="43.0" prefWidth="165.0" text="Sell on Amazon" visible="false">
+         <font>
+            <Font name="MV Boli" size="14.0" />
+         </font>
+      </Button>
+      
+      <Button fx:id="user_Acc" layoutX="1193.0" layoutY="98.0" mnemonicParsing="false" onAction="#user_Acc" prefHeight="82.0" prefWidth="85.0" visible="false" />
+     
+      <TextField fx:id="search_Feild" layoutX="144.0" layoutY="117.0" prefHeight="68.0" prefWidth="699.0" visible="false" />
+    
+      <Button fx:id="search_BTN" layoutX="881.0" layoutY="99.0" mnemonicParsing="false" onAction="#search" prefHeight="82.0" prefWidth="85.0" visible="false" />
+      <Button fx:id="help" layoutX="1236.0" layoutY="760.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="70.0" visible="false" />
+      <ImageView fx:id="Amazon_Icon" fitHeight="145.0" fitWidth="328.0" layoutX="446.0" layoutY="-21.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

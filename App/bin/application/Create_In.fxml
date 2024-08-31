@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="754.0" prefWidth="1143.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Create_Controller_2">
+   <children>
+      <AnchorPane layoutX="1.0" layoutY="-1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="754.0" prefWidth="1143.0">
+         <children>
+            <Label fx:id="CYA" layoutX="404.0" layoutY="23.0" prefHeight="106.0" prefWidth="364.0" text="Create Your Account" visible="false">
+               <font>
+                  <Font name="Centaur" size="36.0" />
+               </font>
+            </Label>
+            <TextField fx:id="User_Mobile" layoutX="85.0" layoutY="280.0" prefHeight="98.0" prefWidth="466.0" promptText="Enter Your Mobile Number" visible="false">
+               <font>
+                  <Font name="Leelawadee UI Semilight" size="35.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="User_Birth" layoutX="586.0" layoutY="140.0" prefHeight="80.0" prefWidth="534.0" promptText="Enter Your Date Of Birth(DD/MM/YYYY)" visible="false">
+               <font>
+                  <Font name="Leelawadee UI" size="28.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="User_Email" layoutX="586.0" layoutY="280.0" prefHeight="98.0" prefWidth="466.0" promptText="Enter Your Email" visible="false">
+               <font>
+                  <Font name="Leelawadee UI" size="32.0" />
+               </font>
+            </TextField>
+            <Button fx:id="Sign_Up_BTN" layoutX="115.0" layoutY="600.0" mnemonicParsing="false" onAction="#Create_Account" prefHeight="60.0" prefWidth="175.0" text="Sign Up" visible="false" />
+            <TextField fx:id="Id" layoutX="85.0" layoutY="143.0" prefHeight="80.0" prefWidth="466.0" promptText="Enter Your UserName" visible="false">
+               <font>
+                  <Font name="Leelawadee UI Semilight" size="34.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="Pin" layoutX="369.0" layoutY="428.0" prefHeight="80.0" prefWidth="343.0" promptText="Enter Your Password" visible="false">
+               <font>
+                  <Font name="Leelawadee UI Semilight" size="25.0" />
+               </font>
+            </PasswordField>
+            <Label fx:id="uc5" layoutX="107.0" layoutY="234.0" prefHeight="30.0" prefWidth="230.0" text="user name must contain 5 characters" textFill="RED" visible="false">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="invalid_u_n" layoutX="350.0" layoutY="241.0" prefHeight="17.0" prefWidth="113.0" text="Invalid user name" textFill="RED" visible="false">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="invali_DOB" layoutX="598.0" layoutY="233.0" prefHeight="19.0" prefWidth="243.0" text="DOB must in this form(yyyymm/dd)" textFill="RED" visible="false" />
+            <Button fx:id="rest_BTN" layoutX="819.0" layoutY="599.0" mnemonicParsing="false" onAction="#rest" prefHeight="60.0" prefWidth="175.0" text="Reset" visible="false" />
+            <Label fx:id="invalid_MN" layoutX="107.0" layoutY="385.0" prefHeight="30.0" prefWidth="133.0" text="Invalid Mobile Number" textFill="RED" visible="false" />
+            <Label fx:id="invalid_Email" layoutX="598.0" layoutY="392.0" prefHeight="17.0" prefWidth="96.0" text="Invalid Email" textFill="RED" visible="false" />
+            <Label fx:id="p2" layoutX="390.0" layoutY="517.0" prefHeight="19.0" prefWidth="249.0" text="password must have more than 2 characters" textFill="RED" visible="false" />
+            <Label fx:id="id_unA" layoutX="302.0" layoutY="536.0" prefHeight="41.0" prefWidth="498.0" text=" is UnAvailable, Do you want to continue press Continue button" textFill="RED" visible="false">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="cont" layoutX="454.0" layoutY="599.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="175.0" text="Restart" visible="false" />
+            <Button fx:id="continue_BTN_Start_Up" layoutX="428.0" layoutY="339.0" mnemonicParsing="false" onAction="#continueToSignIn" prefHeight="106.0" prefWidth="201.0" text="continue" />
+            <Button layoutX="1060.0" layoutY="698.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="69.0" text="Help???" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
